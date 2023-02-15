@@ -1,6 +1,6 @@
 <?php
 
-require("conn/conexao.php");
+require("conn/connection.php");
 
 // Obter o endereço IP do visitante
 $ip = $_SERVER['REMOTE_ADDR'];
@@ -22,7 +22,7 @@ $stmt->execute();
 $datetime = $date." | "."$time";
 
 echo "<script>
-window.location.href='visitas.php';
-alert('Visita inserida! ".$ip." | " .$datetime."');
+window.location.href='visits.php';
+alert('Visit inserted! ".$ip." | " .$datetime."');
 </script>";
 ?>

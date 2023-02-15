@@ -1,5 +1,5 @@
 <?php
-require("conn/conexao.php");
+require("conn/connection.php");
 
 
 // Abrir conexão com o banco de dados SQLite
@@ -16,15 +16,15 @@ $count = $pdo->query("SELECT count(*) FROM visitors")->fetchColumn();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Visitas</title>
+    <title>Visitors</title>
 </head>
 <body>
-    <h1>Gerenciador de Visitas</h1>
+    <h1>Visitors</h1>
 
-    <h5 class="visitas">Total de visitas: <?php echo $count;?></h5>
-    <input onclick="location.href='del_visitas.php';" type="submit" value="Resetar Visitas" />
+    <h5 class="visitas">Visitors: <?php echo $count;?></h5>
+    <input onclick="location.href='del_visits.php';" type="submit" value="Reset All" />
 
-    <input onclick="location.href='insert_visitas.php';" type="submit" value="Registrar Visita" />
+    <input onclick="location.href='insert_visits.php';" type="submit" value="Register Visit" />
         
         
 </body>
