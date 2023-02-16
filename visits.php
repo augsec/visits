@@ -66,15 +66,13 @@ $count = $pdo->query("SELECT count(*) FROM visitors")->fetchColumn();
                                 aria-hidden="true"></i> Register Visit</button>
 
                     </div>
+
+                    <a href="https://github.com/insanesec/" class="centered" style="text-decoration: none;"
+                        target="_blank">by Aug - Insane Technology</a>
+                    <br>
                 </div>
-
-
-
-
-
-
-
             </div>
+
 
 
 
