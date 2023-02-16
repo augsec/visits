@@ -5,7 +5,7 @@ $table_name = "visitors";
 
 // Cria a conexão com o banco de dados
 try {
-    $pdo = new PDO("sqlite:".$db_file);
+    $pdo = new PDO("sqlite:" . $db_file);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     die("Error while connecting database: " . $e->getMessage());

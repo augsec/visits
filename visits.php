@@ -50,7 +50,6 @@ $count = $pdo->query("SELECT count(*) FROM visitors")->fetchColumn();
                     <div class="card-body">
                         <h5 class="card-title">Visitors Counter</h5>
                         <hr>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
                         <p class="card-text">Visitors:
                             <span class="badge bg-secondary">
                                 <?php echo $count; ?>
