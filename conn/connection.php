@@ -6,7 +6,7 @@ date_default_timezone_set('America/Sao_Paulo');
 $db_file = 'conn/database.sqlite';
 
 // cria a conexão com o banco de dados usando PDO
-$pdo = new PDO("sqlite:$db_file");
+$pdo = new PDO("sqlite:".$db_file);
 
 // cria a tabela "visitors" se ela ainda não existir
 $query = "CREATE TABLE IF NOT EXISTS visitors (

@@ -9,7 +9,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $date = date('Y-m-d');
 $time = date('H:i:s');
 
-$db = new PDO("sqlite:$db_file");
+$db = new PDO("sqlite:".$db_file);
 
 // Inserir uma nova linha na tabela "visitors"
 $query = "INSERT INTO visitors (ip, date, time) VALUES (:ip, :date, :time)";
