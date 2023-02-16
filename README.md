@@ -31,6 +31,7 @@ There, the default file "database.sqlite" will be available, you can change it a
 ```bash
   $db_file = 'conn/database.sqlite';
 ```
+Remember to enable "extension=sqlite3" in your php.ini file
 
 
 
@@ -44,6 +45,8 @@ Lá, estará disponível o arquivo padrão "database.sqlite", você pode alterar
 ```bash
   $db_file = 'conn/database.sqlite';
 ```
+Lembre-se de habilitar o "extension=sqlite3" no seu arquivo php.ini
+
 ## Autores
 
 - [@Aug - Insanesec](https://github.com/insanesec)
