@@ -47,7 +47,4 @@ Lá, estará disponível o arquivo padrão "database.sqlite", você pode alterar
 ```
 Lembre-se de habilitar o "extension=sqlite3" no seu arquivo php.ini
 
-## Autores
-
-- [@Aug - Insanesec](https://github.com/insanesec)
 
