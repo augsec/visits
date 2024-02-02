@@ -1,5 +1,6 @@
 <?php
 
+// Chamar conexão
 require("conn/connection.php");
 
 // Obter o endereço IP do visitante
