@@ -17,7 +17,7 @@ PT: Sistema de contagem de visitas - PHP + Sqlite, utilizando PDO. Juntamente co
 
 ## Funcionalidades
 
-- Contador de Visitas
+- Contador de Visitas PHP
 - Resetar tods as visitas(zerar)
 - Sistema em PHP +  SQLite
 
